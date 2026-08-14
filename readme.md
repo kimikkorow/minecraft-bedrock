@@ -16,7 +16,7 @@
 
 # A bedrock Minecraft PE Server on Docker
 
-This documentation is for image lomot/minecraft-bedrock:1.26.43.1
+This documentation is for image lomot/minecraft-bedrock:1.26.44.3
 
 ## Start the server
 
@@ -41,7 +41,7 @@ mkdir -p /opt/mcpe-data
 ```bash
 docker run -itd --restart=always --name=mcpe --net=host \
   -v /opt/mcpe-data:/data \
-  lomot/minecraft-bedrock:1.26.43.1
+  lomot/minecraft-bedrock:1.26.44.3
 ```
 
 ## Upgrade the server
@@ -66,7 +66,7 @@ docker container rm mcpe
 ```bash
 docker run -itd --restart=always --name=mcpe --net=host \
   -v /opt/mcpe-data:/data \
-  lomot/minecraft-bedrock:1.26.43.1
+  lomot/minecraft-bedrock:1.26.44.3
 ```
 
 ## Manage the server
